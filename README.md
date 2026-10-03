@@ -1,58 +1,72 @@
-# Parkinson Study: 파킨슨병 및 이상운동질환 논문 연속 학습 프로젝트
+# Parkinson Study: 파킨슨병 및 이상운동질환 종합 논문 스터디 프로젝트
 
-본 저장소는 파킨슨병(Parkinson's Disease) 및 파킨슨 증후군, 이상운동질환(Movement Disorders) 관련 학술 논문 아카이브를 바탕으로, 매일 1편씩 무작위로 논문을 선정하여 체계적인 학술 분석 학습서(Study Guide)를 구축·축적하는 저장소입니다.
+본 저장소는 파킨슨병(Parkinson's Disease) 및 파킨슨 증후군, 이상운동질환(Movement Disorders) 분야의 학술 논문 아카이브를 바탕으로, 편당 체계적인 학술 분석 가이드(Study Guide)를 지속적으로 구축·축적하는 연구 프로젝트입니다.
 
 ---
 
 ## 1. 프로젝트 개요
 
-* **목적**: 대규모 의학/신경과학 논문 아카이브로부터 무작위 샘플링을 수행하고, 표준화된 10대 학술 분석 체계에 입각한 정밀 학습서를 지속적으로 생성 및 보관함.
-* **대상 저널**: *Movement Disorders* 및 유관 신경과학/신경과 학술지 논문군.
-* **학습서 작성 원칙**:
-  * 이모지 사용 전면 금지 (마크다운 표준 서식만을 활용한 학술 보고서 양식).
-  * 엄밀하지 못한 표현 및 주관적 서술 배제 (표준 해부학적·통계학적 용어 및 정량 데이터 사용).
-  * 근거 없는 주장 금지 (원문 텍스트, 통계 수치, 표, 그림에 명시된 사실에만 입각).
-  * 논문 수록 시각 자료(Table 및 Figure) 전수 소개 및 관전 포인트 분석 의무화.
+* **목표**: 대규모 임상/기초 신경학 논문 풀에서 매 회차 무작위 또는 조건별 논문을 선정하고, 표준화된 10개 챕터 학술 분석 프레임워크에 입각하여 심층 스터디 가이드를 작성.
+* **주요 저널**: *Movement Disorders*, *Movement Disorders Clinical Practice* 등 국제 주요 신경학/운동질환 학술지.
+* **핵심 작성 원칙**:
+  * 이모지 일체 배제 (순수 학술 마크다운 표기 및 포맷 유지).
+  * 수치 및 근거 기반 기술 (원문 데이터, 통계치, 신뢰구간, P값 완전 인용).
+  * 모든 도표(Table) 및 그림(Figure) 전수 분석 (표의 복제 지양, 점검 포인트 및 통계적 함의 제공).
+  * 클라우드 보안 엄수 (Google Drive URL, File ID, 원시 PDF는 로컬 격리 및 gitignore 처리).
 
 ---
 
 ## 2. 디렉토리 구조
 
-`
+```
 parkinson_study/
-├── AGENTS.md                  # 저장소 공식 운영 및 작성 규칙 (에이전트 행동 지침)
-├── README.md                  # 프로젝트 소개 문서
-├── study_picker.py            # 무작위 논문 추첨 및 자동 다운로드 모듈
+├── AGENTS.md                  # 스터디 운영 가이드 및 작성 규칙
+├── README.md                  # 프로젝트 소개 및 목차
+├── study_picker.py            # 논문 무작위 샘플링 및 메타데이터 처리 도구
 ├── data/
-│   └── papers_index.json      # 논문 메타데이터 인덱스 (로컬 전용, .gitignore 격리)
+│   └── papers_index.json      # 논문 메타데이터 인덱스 (로컬 보관, .gitignore 처리)
 ├── docs/
-│   └── RULES.md               # 문서 및 학습서 작성 상세 규칙
-├── downloaded_pdfs/           # 다운로드된 논문 원문 PDF 파일 저장소
-└── study_guides/              # 생성된 회차별 논문 스터디 가이드 마크다운 문서
-    └── 0001_MovDisord_2001_BSPDC_Manyam.md
-`
+│   └── RULES.md               # 심층 스터디 작성 상세 규칙
+├── downloaded_pdfs/           # 다운로드된 논문 원문 PDF (로컬 보관, .gitignore 처리)
+└── study_guides/              # 회차별 스터디 가이드 마크다운 문서
+    ├── 0001_MovDisord_2001_BSPDC_Manyam.md
+    ├── 0002_MovDisord_1999_Falls_Wenning.md
+    ├── 0003_MovDisordClinPract_2024_ElderlyFMD_Geroin.md
+    └── 0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md
+```
 
 ---
 
-## 3. 학습서 표준 구성 체계 (10 Chapters)
+## 3. 스터디 표준 10개 챕터 구성 (Standard 10-Chapter Schema)
 
-1. **논문 기본 정보 (Paper Metadata)**: 제목, 저자, 소속, 학술지, 권·호, 연도, DOI, PMID.
-2. **핵심 요약 (Executive Summary)**: 4~5개 항목의 정량적 핵심 결과 요약.
-3. **초록 (Abstract)**: 영문 원문 전문 및 한국어 정밀 완역문.
-4. **연구 배경 및 연구 질문 (Research Questions)**: 연구 배경, Primary RQ, Secondary RQs.
-5. **연구 대상 및 방법론 (Methods)**: 코호트 설계, 포함/배제 기준, 계측 기기 및 프로토콜, 통계 분석 기법.
-6. **본문 수록 시각 자료 전수 분석 (Detailed Analysis of All Tables & Figures)**: Table 및 Figure 전체를 개별 심층 분석 (원문 표 참조 안내 + 집중 관전 포인트 제시).
-7. **주요 연구 결과 (Key Findings)**: 인구통계, 증상별 빈도, 영상 계측치 등 데이터 중심 요약.
-8. **고찰 및 임상적 한계 (Discussion & Limitations)**: 병태생리 가설, 기존 연구와의 비교, 치료적 한계, 연구 제한점.
-9. **핵심 전문 용어 사전 (Terminology Glossary)**: 논문의 핵심 의학/연구 용어 정밀 정의.
-10. **셀프 점검 퀴즈 및 정답 해설 (Self-Assessment Quiz)**: 객관식 문항 및 상세 해설.
+1. **논문 기본 정보 (Paper Metadata)**: 제목, 저자, 저널, 출판연도, DOI, 스터디 번호.
+2. **핵심 요약 (Executive Summary)**: 연구 목적, 주요 결과, 임상적 의의 요약.
+3. **초록 (Abstract)**: 영문 원문 및 국문 정밀 완역 대조.
+4. **연구 배경 및 연구 질문 (Research Background & Core Questions)**: 연구 배경, Primary RQ, Secondary RQs.
+5. **연구 대상 및 방법론 (Study Population & Methodology)**: 코호트 특성, 진단 기준, 측정 도구, 통계 분석 모델.
+6. **본문 수록 시각 자료 전수 분석 (Detailed Analysis of All Tables & Figures)**: Table 및 Figure 전수 분석 (중점 확인 항목, 통계적 함의, 각주 설명).
+7. **주요 연구 결과 (Key Empirical Findings)**: 통계 수치 기반 핵심 분석 결과.
+8. **고찰 및 임상적 한계 (Discussion & Clinical Implications)**: 병태생리 고찰, 임상적 시사점, 방법론적 한계.
+9. **핵심 전문 용어 사전 (Terminology Glossary)**: 논문 핵심 의학/통계 전문 용어 정밀 해설.
+10. **셀프 점검 퀴즈 및 정답 해설 (Self-Assessment Quiz & Detailed Explanations)**: 객관식 및 주관식 퀴즈와 정답/해설.
 
 ---
 
-## 4. 실행 및 활용 방법
+## 4. 스터디 가이드 목록 (Study Guides Index)
 
-### 무작위 논문 추첨 및 원문 다운로드
-`ash
+| 번호 | 출판연도 | 논문 제목 | 주요 주제 | 가이드 링크 |
+| :--- | :--- | :--- | :--- | :--- |
+| **#0001** | 2001 | Bilateral Striopallidodentate Calcinosis: Clinical Characteristics of Patients in the International Registry | 파르병(BSPDC/Fahr's disease) 임상 아형 및 양측 기저핵 석회화 | [가이드 #0001](file:///C:/Users/11015/parkinson_study/study_guides/0001_MovDisord_2001_BSPDC_Manyam.md) |
+| **#0002** | 1999 | What Features Improve the Accuracy of the Clinical Diagnosis in Severe Parkinsonian Disorders: A Clinicopathologic Study | 부검 확진 파킨슨 증후군(IPD, PSP, MSA) 감별진단 및 조기 낙상의 예측 가치 | [가이드 #0002](file:///C:/Users/11015/parkinson_study/study_guides/0002_MovDisord_1999_Falls_Wenning.md) |
+| **#0003** | 2024 | Late-Onset Functional Motor Disorders: A Multicenter Italian-British Cohort Study | 60세 이상 고령 발병 기능성 운동장애(Late-Onset FMD)의 표현형 및 동반질환 특성 | [가이드 #0003](file:///C:/Users/11015/parkinson_study/study_guides/0003_MovDisordClinPract_2024_ElderlyFMD_Geroin.md) |
+| **#0004** | 2020 | Pedunculopontine Nucleus Microstructure Predicts Postural and Gait Symptoms in Parkinson's Disease | 뇌교각핵(PPN) DTI 미세구조 및 미상핵 도파민 결손의 5년 PIGD 발현 독립적 예측 | [가이드 #0004](file:///C:/Users/11015/parkinson_study/study_guides/0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md) |
+
+---
+
+## 5. 실행 및 활용 방법
+
+### 논문 무작위 추출 도구
+```bash
 python study_picker.py
-`
-study_picker.py 모듈을 실행하면 data/papers_index.json에 등록된 논문 데이터베이스에서 무작위로 1편을 선정하고 원문 PDF를 downloaded_pdfs/ 디렉토리에 자동으로 다운로드합니다.
+```
+`study_picker.py`를 실행하면 `data/papers_index.json`에 등록된 논문 데이터베이스에서 다음 회차 스터디 번호를 자동 채번하고 무작위 논문을 선정합니다.
