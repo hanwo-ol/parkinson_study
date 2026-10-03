@@ -16,7 +16,6 @@
 | **발행 연도** | 2001년 (접수: 1998년 8월 10일, 수정 수락: 2000년 9월 2일, 온라인 게재: 2001년 3월 8일) |
 | **DOI** | [10.1002/mds.1049](https://doi.org/10.1002/mds.1049) |
 | **PubMed ID** | [PMID: 11295778](https://pubmed.ncbi.nlm.nih.gov/11295778/) |
-| **원문 파일** | [MovDisord_2001_11295778_10.1002_mds.1049.pdf](file:///c:/Users/11015/parkinson_study/downloaded_pdfs/MovDisord_2001_11295778_10.1002_mds.1049.pdf) |
 | **색인 주제어** | Bilateral striopallidodentate calcinosis (BSPDC), Fahr's disease, basal ganglia, calcium, computed tomography, electronic planimeter, coordinate digitizer |
 
 ---

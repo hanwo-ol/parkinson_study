@@ -36,7 +36,7 @@ parkinson_study/
 
 ## 3. 학습서 표준 구성 체계 (10 Chapters)
 
-1. **논문 기본 정보 (Paper Metadata)**: 제목, 저자, 소속, 학술지, 권·호, 연도, DOI, PMID, 로컬 원문 PDF 경로.
+1. **논문 기본 정보 (Paper Metadata)**: 제목, 저자, 소속, 학술지, 권·호, 연도, DOI, PMID.
 2. **핵심 요약 (Executive Summary)**: 4~5개 항목의 정량적 핵심 결과 요약.
 3. **초록 (Abstract)**: 영문 원문 전문 및 한국어 정밀 완역문.
 4. **연구 배경 및 연구 질문 (Research Questions)**: 연구 배경, Primary RQ, Secondary RQs.
