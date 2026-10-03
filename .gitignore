@@ -1,0 +1,16 @@
+﻿# Data and Private cloud links / IDs
+data/
+downloaded_pdfs/
+*.pdf
+.env
+.env.*
+*.local
+config.local.json
+
+# Python & IDE cache
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+.vscode/
+.idea/
