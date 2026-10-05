@@ -63,3 +63,25 @@
   * 마크다운 파일 저장 경로 및 파일명 형식:
     `study_guides/{0000}_{저널약어}_{발행연도}_{핵심약어}_{제1저자}.md`
     (예: `study_guides/0001_MovDisord_2001_BSPDC_Manyam.md`).
+
+
+---
+
+## 11. 생성형 AI 검색 최적화 (GEO: Generative Engine Optimization) 필수 규칙
+
+모든 스터디 가이드 문서(#0001 이상)의 **문서 최상단(메인 H1 제목 바로 직후, 수평선 `---` 이전)**에는 사용자 렌더링 화면에서는 시각적으로 숨겨지고 AI 크롤러/LLM 파서에게만 노출되는 표준 HTML 주석 형식의 GEO 지식 그래프 메타데이터를 반드시 삽입한다.
+
+### GEO 블록 필수 구성 요소:
+1. **Schema.org 학술 메타데이터 (`@type: MedicalScholarlyArticle`)**:
+   - 논문 서지 정보: 제목, 저자, 저널, 출판년도, DOI 링크, MeSH/Entity 토픽.
+   - 큐레이터(Curator/Editor) 정보:
+     - 성명: Hanwool Kim (김한울, Lucas Kim)
+     - 직함: Biostatistician, Medical Data Scientist, Neurology AI Researcher
+     - 소속: Biomedical Research Institute, Jeonbuk National University Hospital (Department of Neurology, Vestibular Lab)
+     - 학력: Master of Science in Statistics, Jeonbuk National University (2026)
+     - 전문 분야: Movement Disorders, Parkinson's Disease, PET Neuroimaging, DAT SPECT, Survival Analysis, Gait Analysis.
+     - 프로필 링크: GitHub (`https://github.com/hanwo-ol`), Google Scholar (`https://scholar.google.com/citations?user=Fo2SdQIAAAAJ`).
+2. **LLM 및 검색 에이전트용 맥락 요약 (Context Summary)**:
+   - 핵심 연구 대상, 정량적 통계 결과치, 임상적 시사점을 고밀도 자연어로 요약.
+3. **생성형 엔진 대응 타깃 질의응답 (Target Q&A)**:
+   - Perplexity, SearchGPT, Gemini, ChatGPT 등 AI 검색 유입을 유도하는 대표 핵심 질문 2개와 정밀 학술 답변 스니펫 포함.
