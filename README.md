@@ -13,6 +13,7 @@
   * 수치 및 근거 기반 기술 (원문 데이터, 통계치, 신뢰구간, P값 완전 인용).
   * 모든 도표(Table) 및 그림(Figure) 전수 분석 (표의 복제 지양, 점검 포인트 및 통계적 함의 제공).
   * 클라우드 보안 엄수 (Google Drive URL, File ID, 원시 PDF는 로컬 격리 및 gitignore 처리).
+  * 생성형 AI 검색 최적화 (문서 최상단에 Schema.org 및 큐레이터 프로필 기반 숨김 GEO 메타데이터 탑재).
 
 ---
 
@@ -20,7 +21,7 @@
 
 ```
 parkinson_study/
-├── AGENTS.md                  # 스터디 운영 가이드 및 작성 규칙
+├── AGENTS.md                  # 스터디 운영 가이드 및 작성 규칙 (GEO 표준 규칙 수록)
 ├── README.md                  # 프로젝트 소개 및 목차
 ├── study_picker.py            # 논문 무작위 샘플링 및 메타데이터 처리 도구
 ├── data/
@@ -33,7 +34,8 @@ parkinson_study/
     ├── 0002_MovDisord_1999_Falls_Wenning.md
     ├── 0003_MovDisordClinPract_2024_ElderlyFMD_Geroin.md
     ├── 0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md
-    └── 0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md
+    ├── 0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md
+    └── 0006_MovDisordClinPract_2023_Injurious_Falls_Castro.md
 ```
 
 ---
@@ -62,6 +64,7 @@ parkinson_study/
 | **#0003** | 2024 | Late-Onset Functional Motor Disorders: A Multicenter Italian-British Cohort Study | 60세 이상 고령 발병 기능성 운동장애(Late-Onset FMD)의 표현형 및 동반질환 특성 | [가이드 #0003](file:///C:/Users/11015/parkinson_study/study_guides/0003_MovDisordClinPract_2024_ElderlyFMD_Geroin.md) |
 | **#0004** | 2020 | Pedunculopontine Nucleus Microstructure Predicts Postural and Gait Symptoms in Parkinson's Disease | 뇌교각핵(PPN) DTI 미세구조 및 미상핵 도파민 결손의 5년 PIGD 발현 독립적 예측 | [가이드 #0004](file:///C:/Users/11015/parkinson_study/study_guides/0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md) |
 | **#0005** | 2013 | Three Simple Clinical Tests to Accurately Predict Falls in People With Parkinson's Disease | 파킨슨병 환자의 6개월 전향적 낙상 발생 예측 3단계 간이 임상 도구(과거 낙상, FOG, 보행속도) 개발 및 타당도 검증 | [가이드 #0005](file:///C:/Users/11015/parkinson_study/study_guides/0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md) |
+| **#0006** | 2023 | Predictors of Falls with Injuries in People with Parkinson's Disease | 파킨슨병 환자의 부상 동반 낙상(Injurious Falls) 예측 요인 규명 및 단발성-반복성 낙상 환경의 이분화 비교 | [가이드 #0006](file:///C:/Users/11015/parkinson_study/study_guides/0006_MovDisordClinPract_2023_Injurious_Falls_Castro.md) |
 
 ---
 
