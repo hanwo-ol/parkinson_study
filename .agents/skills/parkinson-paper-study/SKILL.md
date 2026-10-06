@@ -18,6 +18,7 @@ standardized 10-chapter study guides from the movement disorders paper archive.
 - 4-Digit Numbering: Format study numbering as 0000 (0001, 0002, 0003, ...).
 - Metadata Table: Omit the "원문 파일" row from Chapter 1.
 - Visuals Rule: Every Table and Figure must be analyzed (focus points, takeaways, footnote explanations). No full matrix copy-pasting. Explicitly state if no figures.
+- Communication Style: Strictly dry, direct, and factual. Avoid evaluative rhetoric, flattering remarks, or fluff (e.g., '본 검토 보고서는 매우 정확하고 치명적인...').
 
 ---
 
