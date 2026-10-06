@@ -93,7 +93,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 
 ## 2. 핵심 요약 (Executive Summary)
 
-1. **연구의 핵심 목표**: 파킨슨병(PD) 진행 과정에서 치명적인 낙상과 독립성 상실을 야기하는 자세 불안정성 및 보행 장애(PIGD)의 발현 위험을, 진단 초기(질병 기간 2년 이하) 확산텐서영상(DTI) 기반의 뇌교각핵(Pedunculopontine Nucleus, PPN) 미세구조 무결성 지표를 통해 독립적으로 예측할 수 있는지 검증하였다.
+1. **연구의 핵심 목표**: 파킨슨병(PD) 진행 과정에서 낙상과 독립성 상실을 야기하는 자세 불안정성 및 보행 장애(PIGD)의 발현 위험을, 진단 초기(질병 기간 2년 이하) 확산텐서영상(DTI) 기반의 뇌교각핵(Pedunculopontine Nucleus, PPN) 미세구조 무결성 지표를 통해 독립적으로 예측할 수 있는지 검증하였다.
 2. **핵심 분석 결과**: PPMI 코호트(PD 147명, 대조군 65명, 72개월 추적) 분석 결과, 기저 시점의 PPN 축방향 확산계수(Axial Diffusivity, aD) 증가(Wald = 9.32, P = 0.002)와 미상핵(Caudate) 도파민 수송체(DAT) 결손(Wald = 7.63, P = 0.006)이 향후 중증 PIGD 발생을 유의미하게 독립적으로 예측하였다. 반면, 기저전뇌 마이너트 기저핵(nbM) 미세구조와 뇌척수액(CSF) A-beta 1-42는 PIGD 발생 예측에 유의한 기여를 하지 못했다.
 3. **임상적 함의**: PPN aD는 진전(Tremor), 경직(Rigidity), 서동증(Bradykinesia) 악화와는 무관하여 PIGD에 대한 높은 해부학적-증상적 특이성을 나타냈다. 5년 시점 수신자 조작 특성(ROC) 분석에서 임상-인구학적 기본 모델(AUC 0.74)에 PPN aD를 추가했을 때 판별력이 유의미하게 향상(AUC 0.82, P = 0.03)되어, 도파민 불응성 보행 장애 고위험군 선별 및 조기 중재적 치료(비도파민계 약물, VR 기반 보행 훈련, PPN 심부뇌자극술) 설계에 강력한 영상 바이오마커로 활용될 수 있음을 입증하였다.
 
@@ -190,7 +190,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
   - 개별 환자의 3차원 T1 해부학적 영상과 MNI 공간 표준 뇌(ICBM152)를 SPM12 기반의 DARTEL 알고리즘을 통해 템플릿 공간으로 비선형 정합하는 흐름도를 제시.
   - 사후 조직학적 검증을 거친 MNI 공간 상의 PPN 및 nbM 정위 마스크가 평균 템플릿 공간을 거쳐, 개별 환자의 변형 유동장(Individual flow fields)을 통해 네이티브 DTI 공간으로 역변환(Inverse transformation)되는 3단계 과정 도시.
 - **핵심 기술적 의의**:
-  - 뇌간 중심부의 심각한 자기감수성 왜곡(Susceptibility artifact)과 조직 경계 모호성을 극복하기 위해, 표준 복셀 기반 분석(VBA) 대신 고차원 미분동상(Diffeomorphic) 알고리즘을 적용하여 개별 피험자의 실제 해부학적 핵 경계에 마스크를 완벽하게 안착시킴.
+  - 뇌간 중심부의 자기감수성 왜곡(Susceptibility artifact)과 조직 경계 모호성을 줄이기 위해, 표준 복셀 기반 분석(VBA) 대신 고차원 미분동상(Diffeomorphic) 알고리즘을 적용하여 개별 피험자의 실제 해부학적 핵 경계에 마스크를 정밀하게 안착시킴.
 
 ---
 
@@ -221,7 +221,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 | **MoCA (몬트리올 인지평가)** | 27.62 (2.07) | 27.15 (2.29) | 28.17 (1.14) | 군 간 유의차 미달 |
 | **미상핵 도파민 수송체 (Caudate DAT SBR)** | 1.94 (0.49) | **1.62 (0.60)** | 2.71 (0.43) | PIGD 발생군에서 유의미하게 최저치 기록 |
 | **CSF A-beta 1-42 (pg/mL)** | 865.70 (324.57) | 781.31 (316.87) | 961.42 (467.41) | 군 간 유의차 미달 |
-| **PPN 축방향 확산도 (PPN aD, x10^-3 mm^2/s)** | 1.21 (0.094) | **1.28 (0.10)** | 1.23 (0.094) | **PIGD 발생군에서 독보적 상승 (P < 0.05 FDR 보정)** |
+| **PPN 축방향 확산도 (PPN aD, x10^-3 mm^2/s)** | 1.21 (0.094) | **1.28 (0.10)** | 1.23 (0.094) | **PIGD 발생군에서 유의미한 상승 (P < 0.05 FDR 보정)** |
 | **PPN 평균 확산도 (PPN mD)** | 0.69 (0.05) | 0.71 (0.06) | 0.70 (0.06) | 군 간 유의차 없음 |
 | **PPN 반경방향 확산도 (PPN rD)** | 0.41 (0.06) | 0.41 (0.06) | 0.44 (0.07) | 군 간 유의차 없음 |
 | **nbM 확산도 (aD / mD / rD)** | 1.28 / 1.01 / 0.87 | 1.29 / 1.03 / 0.90 | 1.25 / 0.99 / 0.86 | 전 지표 유의차 없음 (P > 0.35) |
@@ -254,7 +254,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 ### 1. 72개월 추적 관찰 중 PIGD 발생률 및 기저 연관성
 - 전체 147명의 초기 파킨슨병 환자 중 72개월 추적 기간 동안 27명(18.4%)이 사전에 정의된 중증 PIGD 엔드포인트(PIGD > 5)에 도달함.
 - PIGD 발현 환자군은 미발현 환자군에 비해 기저 연령이 유의하게 높았고 (65.17세 vs 60.49세), 기저 운동 장애 점수가 더 심각했음 (MDS-UPDRS Part III: 25.19 vs 19.67).
-- 나이, 성별, UPDRS Part III, MoCA 점수, 추체로(CST) 및 전뇌 회백질 aD를 통제한 공분산분석(ANCOVA)에서도 PPN aD의 증가는 PIGD 발현군에서 독보적으로 유의미했음 ($F = 10.57, P = 0.001$).
+- 나이, 성별, UPDRS Part III, MoCA 점수, 추체로(CST) 및 전뇌 회백질 aD를 통제한 공분산분석(ANCOVA)에서도 PPN aD의 증가는 PIGD 발현군에서 통계적으로 유의미했음 ($F = 10.57, P = 0.001$).
 
 ### 2. Cox 비례위험 회귀모형 생존 분석 결과
 - **PPN aD의 독립적 위험도**:
@@ -294,7 +294,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 1. **부분용적 효과(Partial Volume Effect)의 잔존**:
    - 뇌간 구조의 한계로 인해 PPN 백질과 회백질의 명확한 경계 분할이 불가능하여 부피 보정(Volumetric correction)이 수행되지 못했다. 주변 뇌척수액이나 백질로 인한 신호 희석 가능성이 존재한다.
 2. **생물학적 기전의 모호성**:
-   - DTI는 비침습적 확산 측정치이므로 aD 증가가 정확히 콜린성 신경원의 선택적 사멸인지, GABA/Glutamate 신경세포 소실인지, 혹은 신경교세포 반응인지 병리학적으로 완벽히 구별할 수 없다.
+   - DTI는 비침습적 확산 측정치이므로 aD 증가가 정확히 콜린성 신경원의 선택적 사멸인지, GABA/Glutamate 신경세포 소실인지, 혹은 신경교세포 반응인지 병리학적으로 직접 구별할 수 없다.
 3. **PIGD 점수 이분화(Dichotomization)의 한계**:
    - 본 연구는 임상적 명확성을 위해 PIGD > 5라는 단일 역치를 적용하였다. 이로 인해 미세한 보행 변동성이나 연속형(Continuous) 보행 지표와 CSF A-beta 1-42 간의 잠재적 선형 상관관계가 생존 분석에서 검출되지 않았을 가능성이 있다.
 4. **비전형 파킨슨 증후군(Atypical Parkinsonism) 혼재 가능성**:
