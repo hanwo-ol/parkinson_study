@@ -36,6 +36,7 @@ parkinson_study/
     ├── 0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md
     ├── 0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md
     └── 0006_MovDisordClinPract_2023_Injurious_Falls_Castro.md
+    └── 0007_MovDisord_2023_SBT_Gait_Adaptation_Hulzinga.md
 ```
 
 ---
@@ -60,11 +61,12 @@ parkinson_study/
 | 번호 | 출판연도 | 논문 제목 | 주요 주제 | 가이드 링크 |
 | :--- | :--- | :--- | :--- | :--- |
 | **#0001** | 2001 | Bilateral Striopallidodentate Calcinosis: Clinical Characteristics of Patients in the International Registry | 파르병(BSPDC/Fahr's disease) 임상 아형 및 양측 기저핵 석회화 | [가이드 #0001](file:///C:/Users/11015/parkinson_study/study_guides/0001_MovDisord_2001_BSPDC_Manyam.md) |
-| **#0002** | 1999 | What Features Improve the Accuracy of the Clinical Diagnosis in Severe Parkinsonian Disorders: A Clinicopathologic Study | 부검 확진 파킨슨 증후군(IPD, PSP, MSA) 감별진단 및 조기 낙상의 예측 가치 | [가이드 #0002](file:///C:/Users/11015/parkinson_study/study_guides/0002_MovDisord_1999_Falls_Wenning.md) |
+| **#0002** | 1999 | Progression of Falls in Postmortem-Confirmed Parkinsonian Disorders | 부검 확진 파킨슨 증후군(PD, MSA, DLB, CBD, PSP)의 질환별 재발성 낙상 진행 잠복기 및 감별진단 가치 | [가이드 #0002](file:///C:/Users/11015/parkinson_study/study_guides/0002_MovDisord_1999_Falls_Wenning.md) |
 | **#0003** | 2024 | Late-Onset Functional Motor Disorders: A Multicenter Italian-British Cohort Study | 60세 이상 고령 발병 기능성 운동장애(Late-Onset FMD)의 표현형 및 동반질환 특성 | [가이드 #0003](file:///C:/Users/11015/parkinson_study/study_guides/0003_MovDisordClinPract_2024_ElderlyFMD_Geroin.md) |
 | **#0004** | 2020 | Pedunculopontine Nucleus Microstructure Predicts Postural and Gait Symptoms in Parkinson's Disease | 뇌교각핵(PPN) DTI 미세구조 및 미상핵 도파민 결손의 5년 PIGD 발현 독립적 예측 | [가이드 #0004](file:///C:/Users/11015/parkinson_study/study_guides/0004_MovDisord_2020_PPN_Microstructure_PIGD_Craig.md) |
 | **#0005** | 2013 | Three Simple Clinical Tests to Accurately Predict Falls in People With Parkinson's Disease | 파킨슨병 환자의 6개월 전향적 낙상 발생 예측 3단계 간이 임상 도구(과거 낙상, FOG, 보행속도) 개발 및 타당도 검증 | [가이드 #0005](file:///C:/Users/11015/parkinson_study/study_guides/0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md) |
 | **#0006** | 2023 | Predictors of Falls with Injuries in People with Parkinson's Disease | 파킨슨병 환자의 부상 동반 낙상(Injurious Falls) 예측 요인 규명 및 단발성-반복성 낙상 환경의 이분화 비교 | [가이드 #0006](file:///C:/Users/11015/parkinson_study/study_guides/0006_MovDisordClinPract_2023_Injurious_Falls_Castro.md) |
+| **#0007** | 2023 | Split-Belt Treadmill Training to Improve Gait Adaptation in Parkinson's Disease | 파킨슨병 환자에서 4주간 분할 벨트 트레드밀(SBT) 훈련의 보행 적응 획득, 보존, 자동화 및 지상 회전 전이 여부 검증 (RCT) | [가이드 #0007](file:///C:/Users/11015/parkinson_study/study_guides/0007_MovDisord_2023_SBT_Gait_Adaptation_Hulzinga.md) |
 
 ---
 
