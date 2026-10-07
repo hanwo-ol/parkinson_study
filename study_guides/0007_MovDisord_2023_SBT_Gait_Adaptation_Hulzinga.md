@@ -89,7 +89,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 | **국문 번역 제목** | 파킨슨병 환자에서 보행 적응 향상을 위한 분할 벨트 트레드밀 훈련 |
 | **저자** | Femke Hulzinga, Jana Seuthe, Nicholas D'Cruz, Pieter Ginis, Alice Nieuwboer, Christian Schlenstedt |
 | **소속 기관** | Department of Rehabilitation Sciences, KU Leuven (벨기에) / Department of Neurology, University Hospital Schleswig-Holstein, Christian-Albrechts-University Kiel (독일) / Institute of Interdisciplinary Exercise Science and Sports Medicine, MSH Medical School Hamburg (독일) |
-| **학술지 / 권·호** | Movement Disorders, Vol. 38, No. 1, pp. 68–78 |
+| **학술지 / 권·호** | Movement Disorders, Vol. 38, No. 1, pp. 92–103 |
 | **발행 연도** | 2023년 (접수: 2022년 4월 29일, 수정: 2022년 9월 13일, 수락: 2022년 9월 18일, 온라인 게재: 2022년 10월 27일) |
 | **DOI** | [10.1002/mds.29238](https://doi.org/10.1002/mds.29238) |
 | **PubMed ID** | [PMID: 36239376](https://pubmed.ncbi.nlm.nih.gov/36239376/) |
@@ -213,11 +213,16 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
     - **SBT군 배정**: 27명 (Kiel 12명, Leuven 15명 / 동결자 12명, 비동결자 15명).
     - **TBT군 배정**: 25명 (Kiel 12명, Leuven 13명 / 동결자 10명, 비동결자 15명).
   - **중재 완료 및 탈락**:
-    - 훈련 직후(Post, T1): SBT군 25명 완료 (2명 탈락: 개인 사유 1명, 건강 악화 1명), TBT군 24명 완료 (1명 탈락: 건강 악화).
-    - 4주 추적(Retention, T2): SBT군 24명 완료 (추가 1명 탈락), TBT군 23명 완료 (추가 1명 탈락).
-  - **최종 분석 대상**: 무작위 배정된 52명 전원에 대해 선형 혼합 모형 기반 ITT 분석 수행.
+    - 훈련 직후(Post, T1):
+      - SBT군: 24명 평가 완료 (3명 탈락: 코로나19 관련 2명, 교통 문제 1명).
+      - TBT군: 21명 평가 완료 (4명 탈락: 코로나19 관련 3명, 개인 사유 1명).
+    - 4주 추적 관찰(Retention, T2):
+      - SBT군: 22명 평가 완료 (추가 2명 탈락: 코로나19 관련 2명). 누적 탈락 5명 (최종 탈락률 18.5%, 5/27).
+      - TBT군: 17명 평가 완료 (추가 4명 탈락: 코로나19 관련 4명). 누적 탈락 8명 (최종 탈락률 32.0%, 8/25).
+  - **최종 분석 대상**: 무작위 배정된 52명 전원에 대해 선형 혼합 모형 기반 ITT(Intention-To-Treat) 분석 수행.
 - **핵심 판독 결론**:
-  - 다기관 환경에서 배정 비율과 동결자 비율(SBT 44.4% vs TBT 40.0%)이 균등하게 배분되었으며, 중도 탈락률이 7.7%(SBT) 및 8.0%(TBT)로 극히 낮아 프로토콜의 순응도와 임상적 타당성이 확보됨.
+  - 다기관 환경에서 배정 비율과 동결자 비율(SBT 44.4% vs TBT 40.0%)이 균등하게 배분됨.
+  - 총 13명의 탈락자 중 11명(84.6%)이 코로나19 팬데믹 관련 사유로 발생하였으며, 선형 혼합 효과 모형을 통해 결측치를 처리하여 ITT 분석을 완결함.
 
 ---
 
@@ -321,7 +326,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
   - **지상 보행 속도 및 보폭**: $g = 0.20 \sim 0.33$ 수준으로 약한 SBT 우세 경향.
   - **회전 속도 (Turning speed)**: 단일 과제 $g = -0.01$, 이중 과제 $g = 0.00$ (정확히 0에 수렴하여 두 군 간 차이 전무).
 - **핵심 판독 결론**:
-  - 분할 벨트 트레드밀 훈련의 효과는 '보행 적응'이라는 과제 특이적 영역에 집중되어 강력하게 발현되며, 일반 보행 및 전반적 운동 점수(MDS-UPDRS III)에서도 기존 트레드밀 이상의 유익을 제공하지만, 회전 속도로의 원거리 전이(Far transfer)는 유도하지 못함을 시각적으로 요약 증명함.
+  - 분할 벨트 트레드밀 훈련의 효과는 '보행 적응'이라는 과제 특이적 영역에 집중되어 통계적으로 유의미하게 발현되며, 일반 보행 및 전반적 운동 점수(MDS-UPDRS III)에서도 기존 트레드밀 대비 동등하거나 우수한 결과를 보였으나, 회전 속도로의 원거리 전이(Far transfer)는 유도하지 못함을 시각적으로 요약 증명함.
 
 ---
 
@@ -345,7 +350,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
   - SBT군은 지상 보행 속도가 훈련 전 대비 4주 추적 시점에 $+0.09$ m/s 증가하였으며, 이는 임상적 최소 중요 차이(MCID $pprox 0.05$ m/s)를 상회함.
 - **MDS-UPDRS Part III 운동 점수**:
   - 유의미한 시간 효과가 확인됨 ($P = 0.002$).
-  - SBT군은 훈련 직후 **-5.1점**, 4주 추적 관찰 시 **-5.8점** 감소하여 임상적으로 확립된 MCID(3.25점)를 초과하는 뚜렷한 운동 증상 개선을 달성함.
+  - SBT군은 훈련 직후 **-5.1점**, 4주 추적 관찰 시 **-5.8점** 감소하여 임상적으로 확립된 MCID(3.25점)를 초과하는 개선을 달성함.
   - TBT군은 훈련 직후 -2.9점, 4주 추적 시 -3.5점 감소에 머무름.
 
 ### 4. 보행 동결(FOG) 유무에 따른 하위 분석
@@ -362,14 +367,14 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
    - 기저핵-시상-피질 회로의 도파민 고갈로 인해 수의적 운동 개시와 자동적 보행 유지가 손상된 파킨슨병 환자라 할지라도, 하향식 외란에 반응하는 소뇌-뇌간 기반의 감각운동 오차 수정 기전(Sensorimotor adaptation)은 장기간의 훈련을 통해 공고화(Consolidation)될 수 있음을 실증함.
    - 인지 과제(청각 Stroop)를 병행하여 전두엽 주의 자원을 분산시켰음에도 적응 곡선이 유지된 것은, 이러한 운동 기억이 피질하 회로에 자동화된 형태로 내재화되었음을 시사함.
 2. **운동 전이의 결손과 '전이 역설(Transfer Paradox)'의 신경 기전**:
-   - 트레드밀 상에서의 뛰어난 보행 적응이 지상 회전 속도로 전이되지 않은 현상은 '과제 특이성(Task-specificity)'과 '문맥 추론(Contextual inference)'의 한계로 설명됨.
+   - 트레드밀 상에서의 보행 적응이 지상 회전 속도로 전이되지 않은 현상은 '과제 특이성(Task-specificity)'과 '문맥 추론(Contextual inference)'의 한계로 설명됨.
    - 선행 연구에 따르면 파킨슨병 환자는 학습된 운동 기술을 새로운 환경이나 다른 운동 과제로 일반화하는 능력(Inter-limb and context transfer)이 저하되어 있으며, 이는 우측 선조체의 도파민 수송체(DAT) 결합능 감소와 직결됨.
    - 트레드밀의 벨트 구동에 수동적으로 적응하는 신경역학적 조건과, 고정된 지면을 차고 몸의 무게중심을 회전축 안쪽으로 기울여야 하는 지상 회전(Centripetal force 제어)의 생체역학적 제어 기전이 근본적으로 상이하기 때문임.
 
 ### 임상 현장 적용 방안
 1. **하네스 기반 고강도 외란 훈련의 임상적 안전성**:
    - 보행 동결 환자를 포함하여 평균 66세의 중등도 파킨슨병 환자 52명이 4주간 낙상이나 부상 없이 12회의 고난도 비대칭 외란 훈련을 성공적으로 완수함.
-   - 낙상에 대한 두려움 없이 한계 수준의 비대칭 보행을 유도할 수 있는 하네스 트레드밀 환경은 신경재활 프로토콜로서 매우 높은 실행 가능성(Feasibility)을 지님.
+   - 낙상에 대한 두려움 없이 한계 수준의 비대칭 보행을 유도할 수 있는 하네스 트레드밀 환경은 신경재활 프로토콜로서 실행 가능성(Feasibility)을 확인함.
 2. **지상 연계 하이브리드 재활 프로토콜의 필요성**:
    - 트레드밀 단독 훈련만으로는 일상생활 회전이나 장애물 보행으로의 전이가 불충분하므로, 트레드밀 훈련 직후 지상 회전, 장애물 코스 보행, 개방 환경 보행을 결합하는 '지상 연계(Off-treadmill) 하이브리드 중재' 설계가 필수적임.
 
@@ -377,7 +382,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 1. **도파민 'On' 상태 평가의 한계**:
    - 윤리적·안전성 이유로 모든 훈련과 평가가 약물 'On' 상태에서 진행됨에 따라, 도파민 약효 소진 시('Off' 상태)의 보행 동결 사건을 실험실 내에서 직접적으로 포착하지 못하여 FOG 척도의 변화를 통계적으로 입증하기 어려웠음.
 2. **소표본 크기 및 다기관 단일맹검 설계**:
-   - 중재 특성상 환자에게 맹검(Blinding)을 적용할 수 없는 단일맹검(평가자 맹검) 설계였으며, 전체 52명으로 하위 그룹(동결자 vs 비동결자) 간의 미세한 상호작용 차이를 규명하기에는 검정력이 다소 제한됨.
+   - 중재 특성상 환자에게 맹검(Blinding)을 적용할 수 없는 단일맹검(평가자 맹검) 설계였으며, 전체 52명으로 하위 그룹(동결자 vs 비동결자) 간의 상호작용 차이를 규명하기에는 검정력이 제한될 수 있음.
 
 ---
 
@@ -433,7 +438,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 
 **모범 답안**:
 1. **소뇌 의존적 암묵적 오차 학습의 보존과 과제 특이성**:
-   분할 벨트 트레드밀에서 발생하는 좌우 비대칭 속도는 하향식 감각운동 오차(Sensory prediction error)를 유발하며, 이는 손상된 대뇌 기저핵을 우회하여 비교적 보존된 소뇌-올리브핵 경로(Cerebellar-olivary system)를 통해 신속하게 내부 운동 모델(Internal model)을 수정·저장한다. 연구 결과에서 나타난 사후 효과(After-effect)와 이중 과제 불변성은 소뇌 수준의 암묵적 운동 학습이 성공적으로 자동화되었음을 보여준다. 그러나 소뇌 기반 운동 적응은 연습이 이루어진 물리적 환경과 동일한 조건에서만 선택적으로 발현되는 강력한 '과제 특이성(Task-specificity)'을 띤다.
+   분할 벨트 트레드밀에서 발생하는 좌우 비대칭 속도는 하향식 감각운동 오차(Sensory prediction error)를 유발하며, 이는 손상된 대뇌 기저핵을 우회하여 비교적 보존된 소뇌-올리브핵 경로(Cerebellar-olivary system)를 통해 신속하게 내부 운동 모델(Internal model)을 수정·저장한다. 연구 결과에서 나타난 사후 효과(After-effect)와 이중 과제 불변성은 소뇌 수준의 암묵적 운동 학습이 성공적으로 자동화되었음을 보여준다. 그러나 소뇌 기반 운동 적응은 연습이 이루어진 물리적 환경과 동일한 조건에서만 선택적으로 발현되는 '과제 특이성(Task-specificity)'을 띤다.
 2. **기저핵 기능 손상과 문맥 추론 및 전이(Transfer) 결손**:
    새로운 환경이나 이질적인 운동 과제(지상 회전)로 적응 기술을 일반화(Generalization)하기 위해서는 선조체(Striatum)를 중심으로 하는 기저핵-피질 회로의 유연한 '문맥 추론(Contextual inference)' 능력이 필수적이다. 선행 연구에서 파킨슨병 환자는 선조체 도파민 수송체(DAT) 결합능 감소로 인해 이질적 과제 간 운동 전이 능력이 저하되어 있음이 보고되었다.
 3. **생체역학적 제어 환경의 근본적 괴리**:
