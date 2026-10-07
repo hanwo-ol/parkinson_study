@@ -67,6 +67,7 @@ parkinson_study/
 | **#0005** | 2013 | Three Simple Clinical Tests to Accurately Predict Falls in People With Parkinson's Disease | 파킨슨병 환자의 6개월 전향적 낙상 발생 예측 3단계 간이 임상 도구(과거 낙상, FOG, 보행속도) 개발 및 타당도 검증 | [가이드 #0005](file:///C:/Users/11015/parkinson_study/study_guides/0005_MovDisord_2013_Falls_Prediction_Tool_Paul.md) |
 | **#0006** | 2023 | Predictors of Falls with Injuries in People with Parkinson's Disease | 파킨슨병 환자의 부상 동반 낙상(Injurious Falls) 예측 요인 규명 및 단발성-반복성 낙상 환경의 이분화 비교 | [가이드 #0006](file:///C:/Users/11015/parkinson_study/study_guides/0006_MovDisordClinPract_2023_Injurious_Falls_Castro.md) |
 | **#0007** | 2023 | Split-Belt Treadmill Training to Improve Gait Adaptation in Parkinson's Disease | 파킨슨병 환자에서 4주간 분할 벨트 트레드밀(SBT) 훈련의 보행 적응 획득, 보존, 자동화 및 지상 회전 전이 여부 검증 (RCT) | [가이드 #0007](file:///C:/Users/11015/parkinson_study/study_guides/0007_MovDisord_2023_SBT_Gait_Adaptation_Hulzinga.md) |
+| **#0008** | 2023 | Cerebrospinal Fluid Biomarkers of Synaptic Dysfunction are Altered in Parkinson's Disease and Related Disorders | 파킨슨병 및 관련 신경퇴행성 질환에서 뇌척수액 시냅스 기능 이상 바이오마커의 변화 | [가이드 #0008](file:///C:/Users/11015/parkinson_study/study_guides/0008_MovDisord_2023_CSF_Synaptic_Biomarkers_Nilsson.md) |
 
 ---
 
