@@ -105,7 +105,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 1. **연구의 핵심 목적 및 설계**:
    시냅스 기능 이상이 신경퇴행성 질환의 초기 병태생리로 지목됨에 따라, 파킨슨병(PD) 및 비전형 파킨슨증후군(MSA, PSP, CBD) 환자를 대상으로 15종의 뇌척수액(CSF) 시냅스 단백질을 질량분석법(LC-MS/MS)으로 정량하여 질환 특이적 프로파일과 임상적 예후 예측 인자로서의 가치를 두 개의 독립 코호트(Discovery 코호트 $n=154$, Validation 코호트 $n=143$, 알츠하이머병 대조군 포함)에서 검증함.
 2. **핵심 분석 결과**:
-   두 코호트 모두에서 건강한 대조군(HC) 대비 파킨슨병, MSA, PSP 환자의 CSF 내 뉴런 펜트락신(NPTX1, NPTX2, NPTXR) 농도가 유의하게 감소함. 알츠하이머병(AD)은 파킨슨증후군과 달리 14-3-3 zeta/delta, beta-/gamma-synuclein 농도가 높게 나타나 뚜렷한 프로파일 차이를 보임.
+   두 코호트 모두에서 건강한 대조군(HC) 대비 파킨슨병, MSA, PSP 환자의 CSF 내 뉴런 펜트락신(NPTX1, NPTX2, NPTXR) 농도가 유의하게 감소함. 알츠하이머병(AD)은 파킨슨증후군과 달리 14-3-3 zeta/delta, beta-/gamma-synuclein 농도가 높게 나타나 구별되는 프로파일 차이를 보임.
 3. **임상적 함의**:
    파킨슨병 환자에서 기저 CSF NPTX 수치의 저하는 인지 기능(특히 실행, 시공간, 언어 도메인) 저하 및 선조체(Caudate) 도파민 결핍과 상관관계를 보였으며, 장기 추적 관찰 시 자세 불안정 및 보행 장애(PIGD) 악화와 인지 저하 속도를 유의하게 예측함. 이는 펜트락신이 파킨슨병의 운동 및 비운동 증상 진행을 반영하는 임상적 예후 바이오마커로 활용될 수 있음을 시사함.
 
@@ -135,7 +135,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 1. **시냅스 기능 이상(Synaptic Dysfunction)과 알파시뉴클레인**:
    파킨슨병(PD) 및 다계통위축증(MSA)과 같은 시뉴클레인병증(Synucleinopathy)의 핵심 병태생리는 흑질 선조체 신경세포의 사멸에 선행하여 발생하는 '시냅스 기능의 상실'이다. 정상 알파시뉴클레인은 시냅스 소포(Synaptic vesicle)의 군집화와 세포외 배출(Exocytosis)에 기여하지만, 응집체(Oligomers)가 형성되면 시냅스 전 말단의 병리를 유발한다.
 2. **뇌척수액 시냅스 단백질 바이오마커의 부재**:
-   알츠하이머병(AD)에서는 뉴로그라닌(Neurogranin)이나 SNAP-25와 같은 시냅스 단백질이 CSF 내 신경퇴행성 마커로 널리 검증되었으나, 파킨슨증후군에서는 일관된 결과가 도출되지 않거나 연구가 극히 제한적이었다. 질병 수식 치료제(Disease-modifying therapies) 개발을 위해서는 뉴런 소실 이전의 초기 병리인 시냅스 손상을 정량적으로 반영하는 체액 마커가 필수적이다.
+   알츠하이머병(AD)에서는 뉴로그라닌(Neurogranin)이나 SNAP-25와 같은 시냅스 단백질이 CSF 내 신경퇴행성 마커로 널리 검증되었으나, 파킨슨증후군에서는 일관된 결과가 도출되지 않거나 연구가 제한적이었다. 질병 수식 치료제(Disease-modifying therapies) 개발을 위해서는 뉴런 소실 이전의 초기 병리인 시냅스 손상을 정량적으로 반영하는 체액 마커가 필수적이다.
 3. **뉴런 펜트락신(Neuronal Pentraxins, NPTX)**:
    NPTX 계열(NPTX1, NPTX2, NPTXR)은 흥분성 시냅스 형성 및 AMPA 수용체 군집화에 관여하는 시냅스 기질 단백질이다. 이들의 조절 이상은 인지 기능 저하와 연관됨이 선행 연구에서 제기되었으나, 파킨슨증후군의 감별 진단 및 운동 증상 진행(예: PIGD)에 미치는 예후적 가치는 규명되지 않았다.
 
@@ -187,18 +187,39 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 - **원문 위치**: 본문 5페이지 `TABLE 1. Cohort demographics and baseline characteristics`
 - **핵심 데이터 요약**:
   - **Discovery 코호트**: HC 평균 연령 70.4세, PD 62.6세, MSA 65.4세. 그룹 간 연령($P=0.003$) 및 성별($P=0.003$) 차이가 있어 모든 통계 모델에 공변량으로 통제됨.
-  - **Validation 코호트**: PD군의 MMSE 점수 평균은 28.6점(정상 범위)이었으나, AD군은 21.8점으로 뚜렷한 인지 저하($P < 0.001$)를 나타냄. P-tau181 등 기저 AD 마커는 그룹 간 유의미한 차이가 없었음. 
+  - **Validation 코호트**: PD군의 MMSE 점수 평균은 28.6점(정상 범위)이었으나, AD군은 21.8점으로 유의미한 인지 저하($P < 0.001$)를 나타냄. P-tau181 등 기저 AD 마커는 그룹 간 유의미한 차이가 없었음. 
 - **핵심 판독 결론**: 검증 코호트의 파킨슨병 환자군은 발병 초기, 약물 미투여 상태로, 인지 기능이 대체로 보존된 상태에서 시냅스 마커의 변화를 분석할 수 있는 최적의 환경을 제공함.
 
 ### 6.2 Figure 1: Discovery 코호트 시냅스 단백질 패널 정량 분석
 - **원문 위치**: 본문 5페이지 `FIG. 1. Multiple reaction monitoring analysis of the synaptic panel proteins`
 - **패널 구성**: 각 15종의 시냅스 단백질에 대해 HC, PD, MSA, PSP, CBD 그룹 간 Z-score(표준화 수치) 분포를 상자 수염 그림(Box plot)으로 대조.
 - **핵심 데이터**:
-  - **Neuronal Pentraxins (NPTX1, NPTX2, NPTXR)**: MSA 및 PSP 그룹에서 HC 대비 확연히 억제된 발현 수준을 나타냄. 특히 NPTX2는 PD 그룹에서도 유의한 감소($P < 0.05$)를 확인.
+  - **Neuronal Pentraxins (NPTX1, NPTX2, NPTXR)**: MSA 및 PSP 그룹에서 HC 대비 감소된 발현 수준을 나타냄. 특히 NPTX2는 PD 그룹에서도 유의한 감소($P < 0.05$)를 확인.
   - **AP2B1 및 Complexin-2**: 비전형 파킨슨증후군에서 발현 감소 경향을 나타냄.
 - **핵심 판독 결론**: 펜트락신 계열 단백질의 감쇠가 비전형 파킨슨증후군 및 파킨슨병 초기의 공통적 병태생리 특징일 수 있음을 최초 탐색함.
 
-### 6.3 Table 2: 펜트락신과 인지 및 DaTSCAN 선조체 결합능의 상관관계
+### 6.3 Figure 2: 검증 코호트 시냅스 단백질 패널 정량 및 ROC 곡선 분석
+- **원문 위치**: 본문 9페이지 `FIG. 2. (A) Multiple reaction monitoring (MRM) analysis... (B) Receiver operating curves...`
+- **패널 구성**: 
+  - (A) Validation 코호트(HC, PD, MSA, PSP) 대상 시냅스 단백질 농도의 Z-score 상자 수염 그림.
+  - (B) HC vs Parkinsonism 및 AD vs Parkinsonism 감별 진단력을 나타내는 수신기 작동 특성(ROC) 곡선 및 AUC(Area Under the Curve) 수치.
+- **핵심 데이터**:
+  - **감별 진단력 (HC vs Parkinsonism)**: NPTX2의 곡선하면적(AUC)이 0.78 (95% CI=0.70-0.86)로 가장 우수하였으며, NPTXR (AUC=0.74), NPTX1 (AUC=0.72)이 그 뒤를 이음.
+  - **감별 진단력 (AD vs Parkinsonism)**: 14-3-3 zeta/delta의 AUC가 0.78 (95% CI=0.70-0.88)로 가장 우수하였으며, Neurogranin (AUC=0.76), Beta-synuclein (AUC=0.71) 순으로 높은 변별력을 나타냄.
+- **핵심 판독 결론**: 펜트락신(NPTX) 계열 단백질은 정상인과 파킨슨증후군을 감별하는 데 유효하며, 14-3-3 및 시뉴클레인 단백질은 알츠하이머병과 파킨슨증후군을 구별하는 데 임상적 가치가 있음을 ROC 곡선을 통해 정량적으로 입증함.
+
+### 6.4 Figure 3: 뉴런 펜트락신 기저 수치와 장기적 임상 증상 궤적 간의 연관성 (Longitudinal Analysis)
+- **원문 위치**: 본문 10페이지 `FIG. 3. Associations with the longitudinal performance of mini-mental state exam (MMSE), tremor, and postural imbalance and gait difficulty (PIGD)...`
+- **패널 구성**:
+  - (A) 펜트락신 3종에 대한 진전(Tremor) 및 PIGD 점수 진행 속도와의 상호작용 표준화 계수($\beta$) Forest plot.
+  - (B) NPTX2 기저 수치에 따른 MMSE, Tremor, PIGD 점수의 시간에 따른 예측 궤적(선형 혼합 모형 추정치).
+- **핵심 데이터**:
+  - **PIGD 궤적 (운동 증상)**: NPTX2 ($\beta=-0.038, P=0.0050$), NPTX1 ($\beta=-0.025, P=0.035$), NPTXR ($\beta=-0.029, P=0.039$) 모두 기저 수치가 낮을수록 장기적으로 PIGD 점수가 유의하게 더 빠르게 악화됨.
+  - **Tremor 궤적 (운동 증상)**: NPTX 3종 모두 진전 점수 궤적과는 유의한 상호작용이 없음 ($\beta=0.0055 \sim 0.0058, P > 0.27$).
+  - **MMSE 궤적 (인지 증상)**: NPTX2 기저 수치가 낮은 군일수록 추적 기간(최대 8년) 동안 MMSE 점수의 가파른 하락이 관찰됨 ($\beta=0.32, P=0.021$).
+- **핵심 판독 결론**: 뉴런 펜트락신의 저하는 단순한 파킨슨병 진단 마커를 넘어, 진전과 무관하게 인지 기능(MMSE) 및 축방향 운동 장애(PIGD)의 장기적인 악화 속도를 반영하는 독립적인 예후 바이오마커(Prognostic biomarker)로서 기능함을 통계적으로 증명함.
+
+### 6.5 Table 2: 펜트락신과 인지 및 DaTSCAN 선조체 결합능의 상관관계
 - **원문 위치**: 본문 6페이지 `TABLE 2. Partial Spearman correlation, adjusted for age, for the neuronal pentraxins against cognitive scores`
 - **주요 통계량 (PD 그룹, $n=95$)**:
   - **인지 도메인**: NPTX2는 시공간 기능(rho = 0.28, $P=0.028$), 언어(rho = 0.27, $P=0.034$), 실행 기능(rho = 0.32, $P=0.010$), 작업 기억/주의력(rho = 0.29, $P=0.019$)과 일관된 양의 상관관계를 가짐.
@@ -216,13 +237,13 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 - 반면 MSA와 PSP 같은 비전형 파킨슨증후군에서는 AP2B1과 Complexin-2 등 시냅스 소포 재활용 및 세포외 배출에 관여하는 추가적인 시냅스 단백질의 유의한 감소가 동반되어, 시냅스 손상이 더 광범위하게 발생함을 시사함.
 
 ### 2. 알츠하이머병(AD)과의 프로파일 대조 (Differential Diagnosis)
-- Validation 코호트에 포함된 AD 환자군은 NPTX 수치 감소를 보였으나, 파킨슨증후군 코호트와 뚜렷하게 구별되는 차이점은 **14-3-3 zeta/delta, beta-synuclein, gamma-synuclein의 현저한 상승**이었음.
-- 14-3-3 및 시뉴클레인 이소형(isoforms)은 파킨슨증후군에서는 HC와 유사하거나 낮은 경향을 보인 반면 AD에서는 크게 상승하여, 아밀로이드/타우 병증과 알파시뉴클레인 병증 간 시냅스 붕괴 기전이 근본적으로 상이함을 객관적 마커로 입증함.
+- Validation 코호트에 포함된 AD 환자군은 NPTX 수치 감소를 보였으나, 파킨슨증후군 코호트와 구별되는 차이점은 **14-3-3 zeta/delta, beta-synuclein, gamma-synuclein의 현저한 상승**이었음.
+- 14-3-3 및 시뉴클레인 이소형(isoforms)은 파킨슨증후군에서는 HC와 유사하거나 낮은 경향을 보인 반면 AD에서는 상승하여, 아밀로이드/타우 병증과 알파시뉴클레인 병증 간 시냅스 붕괴 기전이 근본적으로 상이함을 객관적 마커로 입증함.
 
 ### 3. 기저 펜트락신 수치와 임상 궤적의 예후 예측력 (Prognostic Value)
 - 선형 혼합 모형을 이용한 최대 12년 추적 관찰 데이터 분석 결과, 기저 시점의 NPTX 수치는 운동 및 비운동 증상의 진행 속도를 예측하는 유의한 상호작용(Biomarker $\times$ Time)을 나타냄.
 - **운동 증상 (PIGD 궤적)**: NPTX1, NPTX2, NPTXR 모두 초기 농도가 낮을수록 시간에 따른 자세 불안정 및 보행 장애(PIGD) 점수가 유의하게 더 빠르게 악화됨 ($\beta$-estimate = -0.025 ~ -0.038, $P < 0.05$). 반면 진전(Tremor) 점수 진행과는 무관하였음.
-- **인지 증상 (MMSE 궤적)**: NPTX2 수치가 낮을수록 시간에 따른 인지 저하 속도가 확연히 가속화됨 ($\beta$-estimate = 0.32, $P = 0.021$).
+- **인지 증상 (MMSE 궤적)**: NPTX2 수치가 낮을수록 시간에 따른 인지 저하 속도가 가속화됨 ($\beta$-estimate = 0.32, $P = 0.021$).
 
 ---
 
@@ -251,7 +272,7 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 | **Neuronal Pentraxins** (NPTX) | 시냅스 전 말단 및 후 말단에 위치하여 AMPA 수용체의 클러스터링과 흥분성 시냅스의 발달 및 리모델링을 돕는 당단백질. 파킨슨증후군 환자의 CSF에서 공통으로 농도가 감소함. |
 | **PIGD** (Postural Imbalance and Gait Difficulty) | 파킨슨병 운동 증상의 하위 유형으로, 자세 불안정과 보행 장애를 포괄함. 진전(Tremor)과 달리 도파민 약물에 대한 반응성이 낮고 질환 진행에 따라 급격히 악화되는 특성을 가짐. |
 | **DaTSCAN** (123I-FP-CIT SPECT) | 선조체 내 흑질 신경세포 말단에 위치한 도파민 수송체(DAT)와 결합하는 방사성 동위원소를 이용하여 뇌의 도파민 생성 기능을 시각적, 정량적으로 평가하는 단일광자방출컴퓨터단층촬영. |
-| **Complexin-2** (CPLX2) | 시냅스 전 신경 말단에서 SNARE 복합체와 결합하여 시냅스 소포의 세포막 융합(Exocytosis) 및 신경전달물질 방출을 조절하는 세포질 단백질. MSA 및 PSP에서 현저히 감소함. |
+| **Complexin-2** (CPLX2) | 시냅스 전 신경 말단에서 SNARE 복합체와 결합하여 시냅스 소포의 세포막 융합(Exocytosis) 및 신경전달물질 방출을 조절하는 세포질 단백질. MSA 및 PSP에서 유의하게 감소함. |
 | **14-3-3 Proteins** | 세포 내 신호전달, 아폽토시스 조절 등에 관여하는 조절 단백질. 뇌척수액 내 농도 상승은 광범위한 신경세포 사멸이나 알츠하이머병, 크로이츠펠트-야콥병(CJD)에서 급성 붕괴 마커로 작용. |
 
 ---
@@ -282,12 +303,12 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 
 ### Q3. 파킨슨증후군(PD, MSA, PSP)의 시냅스 프로파일이 알츠하이머병(AD)과 근본적으로 다름을 입증한 지표 변화로 올바른 것은?
 - A) AD에서는 NPTX 수치가 감소하지 않고 정상 범위를 유지하였다.
-- B) AD 환자의 CSF에서는 파킨슨증후군과 비교하여 14-3-3 zeta/delta 및 beta-/gamma-synuclein 농도가 뚜렷하게 높게 나타났다.
+- B) AD 환자의 CSF에서는 파킨슨증후군과 비교하여 14-3-3 zeta/delta 및 beta-/gamma-synuclein 농도가 유의하게 높게 나타났다.
 - C) 파킨슨병 환자는 AD와 달리 뇌척수액 내 뉴로그라닌(Neurogranin) 수치가 급격히 상승하였다.
 - D) Complexin-2 수치는 AD에서만 급감하고 파킨슨증후군에서는 증가하였다.
 
-**정답**: **B) AD 환자의 CSF에서는 파킨슨증후군과 비교하여 14-3-3 zeta/delta 및 beta-/gamma-synuclein 농도가 뚜렷하게 높게 나타났다.**  
-**해설**: 알츠하이머병 환자의 CSF에서는 NPTX 수치 감소 외에도 시냅스 파괴 및 신경세포 누출로 인해 14-3-3 단백질과 신경 특이적 시뉴클레인(beta, gamma)의 농도가 현저히 상승하였습니다. 파킨슨증후군에서는 이러한 단백질들이 대조군과 차이가 없거나 오히려 낮아, 두 질환군의 병리적 메커니즘이 확연히 구별됨을 보였습니다.
+**정답**: **B) AD 환자의 CSF에서는 파킨슨증후군과 비교하여 14-3-3 zeta/delta 및 beta-/gamma-synuclein 농도가 유의하게 높게 나타났다.**  
+**해설**: 알츠하이머병 환자의 CSF에서는 NPTX 수치 감소 외에도 시냅스 파괴 및 신경세포 누출로 인해 14-3-3 단백질과 신경 특이적 시뉴클레인(beta, gamma)의 농도가 유의하게 상승하였습니다. 파킨슨증후군에서는 이러한 단백질들이 대조군과 차이가 없거나 오히려 낮아, 두 질환군의 병리적 메커니즘이 확연히 구별됨을 보였습니다.
 
 ---
 
@@ -297,6 +318,6 @@ Target Q&A for Generative Search Engines (Perplexity, SearchGPT, Gemini, ChatGPT
 1. **흥분성 시냅스와 AMPA 수용체 기능 장애**:
    뉴런 펜트락신(NPTX)은 글루탐산성 시냅스에서 AMPA 수용체의 군집화(Clustering) 및 유지 보수에 필수적인 기질 단백질이다. 뇌척수액 내 NPTX 농도의 감소는 피질 및 피질하 네트워크(예: 전두엽-선조체 회로)에서 흥분성 시냅스 결합력이 약화되고 신경가소성이 손상되었음을 직접적으로 반영한다.
 2. **인지 저하와의 병태생리적 연관성**:
-   파킨슨병 환자에서 집행 기능, 시공간, 언어 능력을 담당하는 대뇌 피질 회로의 시냅스 전단에서 시냅스 소포 방출 결함이나 NPTX 매개 시냅스 안정성 상실이 선행되면, 뚜렷한 뇌 위축이나 대규모 신경 사멸 이전에 조기 인지 기능 저하(Cognitive decline)가 촉발된다.
+   파킨슨병 환자에서 집행 기능, 시공간, 언어 능력을 담당하는 대뇌 피질 회로의 시냅스 전단에서 시냅스 소포 방출 결함이나 NPTX 매개 시냅스 안정성 상실이 선행되면, 구조적인 뇌 위축이나 대규모 신경 사멸 이전에 조기 인지 기능 저하(Cognitive decline)가 촉발된다.
 3. **PIGD 궤적 악화의 기전**:
    진전(Tremor)과 달리 자세 불안정 및 보행 장애(PIGD)는 도파민성 신경망 결손 외에도 콜린성 신경망 및 피질-기저핵-뇌간 축의 광범위한 다중 신경전달물질계 시냅스 기능 이상과 연동된다. 기저 시점에서 NPTX 수치가 낮다는 것은 이러한 광범위한 뇌 신경망의 흥분성 시냅스 연결성이 취약함을 의미하며, 결과적으로 도파민 보충 약물만으로는 교정되지 않는 PIGD 증상의 급격한 장기 악화를 초래하는 주요 신경해부학적 기질로 작용한다.
